@@ -13,4 +13,13 @@ html{
 
 .sm-txt {
   font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom:0.5rem;
+}
+
+.login-header{
+  display: block;
+  position:relative;
+  margin-top: 50%;
+  transform: translateY(2%);
 }
