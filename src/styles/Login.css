@@ -7,3 +7,35 @@
 .mssg {
     font-size: 5rem;
 }
+
+.login-input-form {
+    display:block;
+    border: 2px solid blue;
+    background-color: transparent;
+    margin: 5% 0% 5% 10%;
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    cursor: grab;
+    font-size: 1.5rem;
+  }
+  
+  .label-login {
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  .login-input-form, .label-login {
+    text-align: center;
+  } 
+
+.login-button{
+    margin-left: 10%;
+    background: blue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: crosshair;
+    width: 80%;
+  }

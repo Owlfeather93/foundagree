@@ -3,18 +3,19 @@ import React from 'react'
 function LoginForm() {
   return (
     <form>
+        <label htmlFor="email" className='label-login'>Email</label>
         <input 
             name='email' 
             type="email"  
             className='login-input-form'/>
-        <label htmlFor="email">Email</label>
+
+        <label htmlFor="password" className='label-login'>Password</label>
         <input 
             name='password' 
             type="password"  
             className='login-input-form'/>
-        <label htmlFor="password">Password</label>
-        
-        <button>Connect to Wallet</button>
+            
+        <button className='login-button'>Connect to Wallet</button>
     </form>
   )
 }
