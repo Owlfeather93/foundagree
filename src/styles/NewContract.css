@@ -1,61 +1,61 @@
 .new-contract-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .new-contract-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-weight: bold;
 }
 
 .new-contract-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 50%;
 }
 
 .added-addresses {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 1rem;
 }
 
 .added-address {
-    background-color: #14202e;
-    color: #fff;
-    padding: 10px;
-    border-radius: 2px;
-    font-size: 12px;
-    margin: 0.5rem;
+  background-color: #14202e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  margin: 0.5rem;
 }
 
 .form-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #14202e;
-    margin-left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #14202e;
+  margin-left: 10px;
 }
 
 @media (max-width: 768px) {
-    .new-contract-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        width: 90%;
-    }
+  .new-contract-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+  }
 }
