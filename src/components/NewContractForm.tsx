@@ -47,9 +47,9 @@ const NewContractForm = () => {
       <div className="separator2rem" />
 
       <div className="form-title">Shares and vesting (Optional)</div>
-      <div className="flex-start">
+      <div className="flex-start w-full">
         <label htmlFor="shares">
-          Shares for <div className="added-address">0x000000000000000</div>
+            <div className="added-address">0x000000000000000</div>
         </label>
         <input
           type="number"
