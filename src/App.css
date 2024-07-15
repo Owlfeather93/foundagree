@@ -1,10 +1,27 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;  /*this removes the default value of the html tags*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*this removes the default value of the html tags*/
 }
-html{
-  font-size: 62.5%; /*this converts 1 rem = 10px*/
+
+html {
+  font-size: 62.5%;
+  /*this converts 1 rem = 10px*/
+}
+
+.text-primary-color {
+  color: #060d0d !important;
+}
+
+.text-secondary-color {
+  color: rgb(55, 62, 55) !important;
+}
+
+.page-container {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: #fff;
 }
 
 .logo {
@@ -14,12 +31,109 @@ html{
 .sm-txt {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom:0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.login-header{
+.login-header {
   display: block;
-  position:relative;
+  position: relative;
   margin-top: 50%;
   transform: translateY(2%);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.main-button {
+  background-color: #060d0d;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main-button:hover {
+  background-color: rgb(55, 62, 55);
+}
+
+label {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  font-weight: normal;
+  color: rgb(55, 62, 55);
+}
+
+.input-field {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: #060d0d 2px solid;
+  border-radius: 5px;
+  font-size: 13px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-bottom: #ccc 2px solid;
+}
+
+.separator2rem {
+  margin-top: 2rem;
+}
+
+/* set up for mobile view */
+@media (max-width: 768px) {
+  label {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgb(55, 62, 55);
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: #060d0d 2px solid;
+    border-radius: 5px;
+    font-size: 13px;
+    outline: none;
+  }
+
+  .input-field:focus {
+    border-bottom: #ccc 2px solid;
+  }
+
+  .main-button {
+    background-color: #060d0d;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+
+  .main-button:hover {
+    background-color: rgb(55, 62, 55);
+  }
 }

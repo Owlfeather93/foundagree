@@ -1,0 +1,58 @@
+.dashboard-content {
+  height: 90vh;
+  width: 100%;
+}
+
+.dashboard-card {
+  width: 20rem;
+  height: 20rem;
+  background: rgba(127, 123, 123, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 0 50px 0 50px;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  background: rgba(127, 123, 123, 0.2);
+  transform: scale(1.05);
+}
+
+.dashboard-card-icon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard-card:hover .dashboard-card-icon {
+  color: #000 !important;
+}
+
+.dashboard-cards-container {
+  display: flex;
+}
+
+/* set media for mobile view */
+@media screen and (max-width: 768px) {
+  .dashboard-cards-container {
+    display: block;
+  }
+
+  .dashboard-card {
+    width: 20rem;
+    height: 20rem;
+    background: rgba(127, 123, 123, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}

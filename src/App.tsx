@@ -1,11 +1,13 @@
-import './App.css'
 import { BrowserRouter } from "react-router-dom";
-import Routers from './routers';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Routers from "./routers";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter basename="/app">
-      <Routers/>
+      <Routers />
     </BrowserRouter>
   );
 }

@@ -1,14 +1,17 @@
-import {Routes, Route} from 'react-router-dom'
-import Home from '../pages/Home'
-import Login from '../pages/Login'
+import { Routes, Route } from "react-router-dom";
 
-function Routers(){
-    return(
-        <Routes>
-            <Route path="/" element={<Login/>}/>
-            <Route path="/Home" element={<Home/>}/>
-       </Routes>
-    )
+import Login from "../pages/Login";
+import Dashboard from "../pages/Dashboard";
+import NewContract from "../pages/NewContract";
+
+function Routers() {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/new-contract" element={<NewContract />} />
+    </Routes>
+  );
 }
 
 export default Routers;
