@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" bg="light" className="h-32">
       <Container>
-        <Navbar.Brand className="font-bold navbar-logo flex-center" href="/">
+        <Navbar.Brand className="font-bold navbar-logo flex-center" href="/app/dashboard">
           <GrDocumentLocked size={25} className="mr-4" />
           Found<span className="navbar-logo-secondary">Agree</span>
         </Navbar.Brand>
