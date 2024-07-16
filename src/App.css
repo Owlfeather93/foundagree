@@ -7,7 +7,6 @@
 
 html {
   font-size: 62.5%;
-  /*this converts 1 rem = 10px*/
 }
 
 .text-primary-color {
@@ -22,6 +21,15 @@ html {
   min-height: 100vh;
   min-width: 100%;
   background-color: #fff;
+}
+
+.page-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 2rem;
+  font-weight: bold;
+  width: 50%;
 }
 
 .logo {
@@ -72,7 +80,6 @@ html {
 
 label {
   font-size: 1.5rem;
-  margin-left: 10px;
   font-weight: normal;
   color: rgb(55, 62, 55);
 }
@@ -80,7 +87,6 @@ label {
 .input-field {
   width: 100%;
   padding: 1rem;
-  margin: 1rem;
   border-bottom: #060d0d 2px solid;
   border-radius: 5px;
   font-size: 13px;
@@ -136,5 +142,14 @@ label {
 
   .main-button:hover {
     background-color: rgb(55, 62, 55);
+  }
+
+  .page-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2rem;
+    font-weight: bold;
+    width: 90%;
   }
 }

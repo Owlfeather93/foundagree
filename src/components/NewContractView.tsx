@@ -8,7 +8,7 @@ const NewContractView = () => {
       <NavBar />
 
       <div className="new-contract-container">
-        <h1 className="new-contract-header text-primary-color">New Contract</h1>
+        <h1 className="page-title text-primary-color">New Contract</h1>
 
         <NewContractForm />
       </div>

@@ -21,7 +21,7 @@ const DashboardCards = () => {
       onClickPath: "/new-contract",
     },
     {
-      title: "Manage contracts",
+      title: "My contracts",
       icon: (
         <SiAwssecretsmanager
           className="dashboard-card-icon"
@@ -29,7 +29,7 @@ const DashboardCards = () => {
           color={"#ccc"}
         />
       ),
-      onClickPath: "/manage-contract",
+      onClickPath: "/my-contracts",
     },
   ];
 

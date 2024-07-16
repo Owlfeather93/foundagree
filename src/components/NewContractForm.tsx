@@ -49,13 +49,31 @@ const NewContractForm = () => {
       <div className="form-title">Shares and vesting (Optional)</div>
       <div className="flex-start w-full">
         <label htmlFor="shares">
-            <div className="added-address">0x000000000000000</div>
+          <div id="shares" className="added-address">
+            0x000000000000000
+          </div>
         </label>
         <input
           type="number"
           id="shares"
           className="input-field"
           placeholder="e.g. 1000"
+        />
+      </div>
+      <div className="separator2rem" />
+
+      <div className="form-title">Voting rights</div>
+      <div className="flex-start w-full">
+        <label htmlFor="shares">
+          <div className="added-address">0x000000000000000</div>
+        </label>
+        <input
+          type="number"
+          id="shares"
+          className="input-field"
+          placeholder="e.g. 50"
+          min={0}
+          max={100}
         />
       </div>
       <div className="separator2rem" />

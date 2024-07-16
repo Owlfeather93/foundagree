@@ -1,0 +1,51 @@
+.my-contracts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.my-contracts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+.my-contracts-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(127, 123, 123, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.my-contracts-list-item:hover {
+  background: rgba(127, 123, 123, 0.2);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .my-contracts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+}
